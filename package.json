@@ -1,0 +1,36 @@
+{
+  "name": "terra_vue3_typeScript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vueuse/core": "^14.2.1",
+    "element-plus": "^2.13.6",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.2.2",
+    "vue": "^3.5.21",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.2.4",
+    "@iconify-json/mdi": "^1.2.3",
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "fast-glob": "^3.3.3",
+    "sass": "^1.99.0",
+    "typescript": "~5.8.3",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-icons": "^23.0.1",
+    "unplugin-vue-components": "^32.0.0",
+    "vite": "^7.1.7",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^3.0.7"
+  }
+}
